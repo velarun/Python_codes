@@ -23,13 +23,16 @@ class Node:
             self.data = data
 
 # Print the Tree
-    def PrintTree(self):
-        if self.left:
-            self.left.PrintTree()
-        print( self.data),
-        if self.right:
-            self.right.PrintTree()
+    def PrintTree(self, root, ns, ch):
+        if root == None:
+            return 
 
+        string2=ch + ":" + " " + str(root.data)
+        print(string2.rjust(ns))
+        
+        self.PrintTree(root.left, ns+10, "L")
+        self.PrintTree(root.right, ns+10, "R")
+        
 # Inorder traversal
 # Left -> Root -> Right
     def inorderTraversal(self, root):
@@ -68,6 +71,7 @@ root.insert(19)
 root.insert(31)
 root.insert(42)
 
+root.PrintTree(root, 0, "M")
 print("Inorder Traversal: ", root.inorderTraversal(root))
 print("Preorder Traversal: ", root.PreorderTraversal(root))
 print("Postorder Traversal: ", root.PostorderTraversal(root))
