@@ -1,3 +1,4 @@
+# Binary search tree traversal using recursion with complexity O(n^2) 
 class Node:
 
     def __init__(self, data):
