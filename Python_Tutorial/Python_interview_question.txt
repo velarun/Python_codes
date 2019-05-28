@@ -1,0 +1,48 @@
+Python Interview Question:
+
+Why python?
+Python vs other languages
+Dynamic vs static typed languages
+Strongly vs weakly typed languages
+Advantage of python
+Disadvantage of python
+Stack trace
+Static vs dynamic binding or early vs late binding
+Python v2 vs v3
+Data types
+Mutable vs immutable
+Item in list
+Negative index in list
+Stride 
+Pop vs del vs remove
+Nested list
+Append vs extend
+Shallow vs deep copy
+Continue vs break vs finally vs else
+Del in list vs type
+Empty the list ->list.clear, list=[]
+List comprehension (alternate way of creating list & other sequential data types)
+List vs tuple
+Single value tuple
+Packing vs unpacking
+* vs **
+Application of packing and unpacking
+Args vs kwargs
+Input vs raw_input
+Is vs ==
+Accessor vs mutator
+__str__ vs __repr__
+Manually exception methods
+Raise vs assert
+Type vs __class__
+Range vs range
+Lambda function
+Application of lambda
+Index vs rindex
+Class vs instance variable
+Any vs all
+Iterable vs iterator
+Dict keys
+cmp func
+String formatting
+Enumerator
